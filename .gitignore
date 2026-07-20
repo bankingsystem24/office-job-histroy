@@ -1,0 +1,73 @@
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# IntelliJ IDEA
+# ==========================
+.idea/
+*.iml
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# React Native / Expo
+# ==========================
+mobile/node_modules/
+mobile/.expo/
+mobile/.expo-shared/
+mobile/dist/
+mobile/web-build/
+
+# Android
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/build/
+
+# iOS
+mobile/ios/Pods/
+mobile/ios/build/
+
+# Metro
+mobile/.metro-health-check*
+
+# Environment
+mobile/.env
+mobile/.env.*
+
+# ==========================
+# Spring Boot / Maven
+# ==========================
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot Logs
+backend/*.log
+
+# Environment
+backend/.env
+backend/application-local.properties
+
+# ==========================
+# Database
+# ==========================
+database/*.sql.bak
+database/*.dump
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.swp
+*.bak
